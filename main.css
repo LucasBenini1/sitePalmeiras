@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.raleway-fonte {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+  background-color: rgb(0, 63, 0);
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+  background-color: rgb(228, 228, 228);
+  border-bottom: 1px solid gray;
+}
+#lastNews{
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+#img{
+  height: 17vh;
+}
+ul{
+  display: flex;
+  gap: 15px;
+}
+ul li{
+  list-style: none;
+}
+ul li a{
+  color: green;
+  text-decoration: none;
+  font-size: 20px;
+  border-bottom: 1px solid green;
+}
+main{
+  width: 75%;
+  margin: 0 auto;
+}
+#players{
+  height: 45vh;
+  display: block;
+  margin: 20px auto;
+}
+.news{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 20px;
+}
+#title{
+  text-align: center;
+}
+#newsText{
+  width: 75%;
+  text-align: justify;
+  margin: 0 auto;
+  font-size: 18px;
+}
+hr{
+  margin-top: 50px;
+}
+#formContainer{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 75%;
+  margin: 0 auto;
+  border-right: 1px solid lightgray;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 75%;
+}
+#formContainer h1{
+  text-align: center;
+  margin: 40px 0;
+}
+input{
+  padding: 5px;
+  height: 4vh;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0;
+}
+input:focus{
+  outline: none;
+}
+button{
+  padding: 8px;
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 6px;
+  width: 50%;
+  cursor: pointer;
+  margin: 10px auto;
+  font-size: 16px;
+}
+button:hover{
+  background-color: rgb(122, 216, 122);
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+.rightCont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  gap: 25px;
+  color: white;
+}
+.icones{
+  height: 40px;
+}
+#cref{
+  border-radius: 5px;
+}
+footer{
+  background-color: gray;
+  height: 5vh;
+  margin-top: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p{
+  text-align: center;
+}
